@@ -28,4 +28,9 @@ void merge(int Data[], int temp[], int kiri, int tengah, int kanan)
             }
 
             while (kiri <= left_end)
+            	 {
+                        temp[tmp_pos] = Data[kiri];
+                        kiri = kiri + 1;
+                        tmp_pos = tmp_pos + 1;
+            }
                                     
