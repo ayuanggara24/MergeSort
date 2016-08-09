@@ -16,4 +16,7 @@ void merge(int Data[], int temp[], int kiri, int tengah, int kanan)
                         if (Data[kiri] <= Data[tengah])
                         {
                         	 temp[tmp_pos] = Data[kiri];
+                        	  tmp_pos = tmp_pos + 1;
+                                    kiri = kiri +1;
+                        }
                                     
