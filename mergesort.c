@@ -80,3 +80,7 @@ int main()
             printf("\nDATA SETELAH TERURUT : ");
             for (i = 0; i < MAX; i++)
             printf("%d  ", Data[i]);
+         	printf("\n");
+            //scanf("%d");
+            return(0);
+}
