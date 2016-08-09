@@ -41,5 +41,10 @@ void merge(int Data[], int temp[], int kiri, int tengah, int kanan)
             }
 
              for (i=0; i <= num_elements; i++)
+             	 {
+                        Data[kanan] = temp[kanan];
+                        kanan = kanan - 1;
+            }
+}
 
                                     
