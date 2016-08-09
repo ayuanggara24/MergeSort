@@ -9,3 +9,4 @@ void merge(int Data[], int temp[], int kiri, int tengah, int kanan)
             int i, left_end, num_elements, tmp_pos;
             left_end = tengah - 1;
             tmp_pos = kiri;
+            num_elements = kanan - kiri + 1;
