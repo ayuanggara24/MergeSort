@@ -19,4 +19,11 @@ void merge(int Data[], int temp[], int kiri, int tengah, int kanan)
                         	  tmp_pos = tmp_pos + 1;
                                     kiri = kiri +1;
                         }
+                          else
+                        {
+                        temp[tmp_pos] = Data[tengah];
+                        tmp_pos = tmp_pos + 1;
+                        tengah = tengah + 1;
+                        }
+            }
                                     
