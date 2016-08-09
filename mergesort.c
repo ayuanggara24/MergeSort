@@ -65,4 +65,4 @@ void mergeSort(int Data[], int temp[], int array_size)
             m_sort(Data, temp, 0, array_size - 1);
 }
 
-                                    
+int main()
