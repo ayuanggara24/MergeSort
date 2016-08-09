@@ -33,4 +33,5 @@ void merge(int Data[], int temp[], int kiri, int tengah, int kanan)
                         kiri = kiri + 1;
                         tmp_pos = tmp_pos + 1;
             }
+            while (tengah <= kanan)
                                     
