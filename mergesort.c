@@ -60,4 +60,6 @@ void m_sort(int Data[], int temp[], int kiri, int kanan)
             }
 }
 
+void mergeSort(int Data[], int temp[], int array_size)
+
                                     
