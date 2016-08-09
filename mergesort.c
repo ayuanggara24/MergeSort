@@ -5,3 +5,5 @@ int temp[MAX];
 
 // Prosedur merge sort
 void merge(int Data[], int temp[], int kiri, int tengah, int kanan)
+{
+            int i, left_end, num_elements, tmp_pos;
