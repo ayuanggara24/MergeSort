@@ -75,3 +75,6 @@ int main()
                         printf ("Data ke %i : ", i+1);
                         scanf ("%d", &Data[i]);
             }
+
+            mergeSort(Data, temp, MAX);
+            printf("\nDATA SETELAH TERURUT : ");
