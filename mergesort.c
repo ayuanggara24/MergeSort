@@ -47,4 +47,7 @@ void merge(int Data[], int temp[], int kiri, int tengah, int kanan)
             }
 }
 
+// Prosedur membuat kumpulan data
+void m_sort(int Data[], int temp[], int kiri, int kanan)
+
                                     
