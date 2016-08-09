@@ -52,5 +52,12 @@ void m_sort(int Data[], int temp[], int kiri, int kanan)
 {
             int tengah;
             if (kanan > kiri)
+            	{
+                        tengah = (kanan + kiri) / 2;
+                        m_sort(Data, temp, kiri, tengah);
+                        m_sort(Data, temp, tengah+1, kanan);
+                        merge(Data, temp, kiri, tengah+1, kanan);
+            }
+}
 
                                     
