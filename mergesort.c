@@ -10,3 +10,5 @@ void merge(int Data[], int temp[], int kiri, int tengah, int kanan)
             left_end = tengah - 1;
             tmp_pos = kiri;
             num_elements = kanan - kiri + 1;
+
+            while ((kiri <= left_end) && (tengah <= kanan))
