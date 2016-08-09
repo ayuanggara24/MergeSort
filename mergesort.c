@@ -78,3 +78,5 @@ int main()
 
             mergeSort(Data, temp, MAX);
             printf("\nDATA SETELAH TERURUT : ");
+            for (i = 0; i < MAX; i++)
+            printf("%d  ", Data[i]);
