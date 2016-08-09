@@ -26,4 +26,6 @@ void merge(int Data[], int temp[], int kiri, int tengah, int kanan)
                         tengah = tengah + 1;
                         }
             }
+
+            while (kiri <= left_end)
                                     
