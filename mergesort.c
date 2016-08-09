@@ -71,3 +71,7 @@ int main()
             int i;
             printf("Masukkan DATA SEBELUM TERURUT : \n");
             for (i = 0; i < MAX; i++)
+            	 {
+                        printf ("Data ke %i : ", i+1);
+                        scanf ("%d", &Data[i]);
+            }
