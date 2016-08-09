@@ -66,3 +66,8 @@ void mergeSort(int Data[], int temp[], int array_size)
 }
 
 int main()
+
+{
+            int i;
+            printf("Masukkan DATA SEBELUM TERURUT : \n");
+            for (i = 0; i < MAX; i++)
